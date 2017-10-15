@@ -12,5 +12,10 @@ public class MyController {
 		return "Hello ,welcome to spring boot application";
 	}
 	
+	@RequestMapping("/about")
+	public String about()
+	{
+		return "This all about spring boot app";
+	}
 
 }
