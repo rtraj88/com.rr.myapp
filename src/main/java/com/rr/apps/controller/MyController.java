@@ -9,7 +9,7 @@ public class MyController {
 	@RequestMapping("/")
 	public String home()
 	{
-		return "Hello welcome to spring boot application";
+		return "Hello ,welcome to spring boot application";
 	}
 	
 
