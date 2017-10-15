@@ -17,5 +17,10 @@ public class MyController {
 	{
 		return "This all about spring boot app";
 	}
+	@RequestMapping("/help")
+	public int warn()
+	{
+		return 404;
+	}
 
 }
